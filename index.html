@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>The Game From The NegerHood </title>
+    <script src="phaser.js"></script>
+    <script src="DataFood.js"></script>
+    <script src="HealthBar.standalone.js"></script>
+    <script src="DayCycle.js"></script>
+    <script src="boot.js"></script>
+    <script src="preload.js"></script>
+    <script src="gametitle.js"></script>
+    <script src="gameover.js"></script>
+    <script src="win.js"></script>
+    <script src="thegame.js"></script>
+    
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <script>
+        (function() {
+            var game = new Phaser.Game(800, 600, Phaser.AUTO, "game");
+            game.state.add("Boot",boot);
+            game.state.add("Preload",preload);
+            game.state.add("GameTitle",gameTitle);
+            game.state.add("TheGame",theGame);
+            game.state.add("GameOver", gameOver);
+            game.state.add("Win", win);
+            game.state.start("Boot");
+        })();    
+    </script>
+    
+</body>
+
+</html>
