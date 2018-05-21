@@ -7,4 +7,4 @@
 <p>Pour tester le jeu il faut télécharger les 10 fichiers en javascript, le css ainsi que le fichier html. Mais il est nécessaire de télécharger le dossier "assets" (dossier contenant toutes les images) qui se trouve dans ce drive : 
 https://yncrea-my.sharepoint.com/:f:/g/personal/jean_frenoi_isen_yncrea_fr/EtmvvreI1xlIjrDQZcslWK4BGgGb_62YxUUvBw-i6HJuZw?e=LDsOhN
 
-Ce drive contient également la vidéo du projet. Il ne reste plus qu'à lancer le ####index.html pour tester le jeu.</p>
+Ce drive contient également la vidéo du projet. Il ne reste plus qu'à lancer le index.html pour tester le jeu.</p>
